@@ -26,7 +26,7 @@ def auto_reply_to_teams_channel(message):
 
 # Example usage
 if __name__ == "__main__":
-    teams_message = input("enter message = ")
+    teams_message = "Hi there"
     status_code, reply_text = auto_reply_to_teams_channel(teams_message)
     print("Status Code:", status_code)
     print("Reply Text:", reply_text)
